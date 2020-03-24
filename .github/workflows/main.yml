@@ -46,8 +46,8 @@ jobs:
 
   my_cd_part:
   # This workflow contains a single job called "build"
-      runs-on: ubuntu-latest
-      needs: [my_ci_part]
+    runs-on: ubuntu-latest
+    needs: [my_ci_part]
 
     steps:
     - name: Configure my AWS Credentials
