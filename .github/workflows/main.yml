@@ -4,7 +4,7 @@ name: CI-CD-Pipeline-to-AWS-ElastikBeanstalk
 env:
   EB_Package_S3_Bucket_Name : "dakine014-django-application-packages"
   EB_Application_Name       : "MyDjango" 
-  EB_Environment_Name       : "MyDjango-env" 
+  EB_Environment_Name       : "Mydjango-env" 
   Deploy_Package_Name       : "django_app_${{ github.sha }}.zip"
   AWS_Region_Name           : "us-west-2"  
 # Controls when the action will run. Triggers the workflow on push or pull request
